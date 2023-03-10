@@ -25,16 +25,17 @@
             <Button
                 android:id="@+id/clearBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:layout_weight="1"
-                android:text="@string/clear"
-                android:background="@drawable/circle"
                 android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:backgroundTint="#DD2C00"
-                app:backgroundTint="#DD2C00"
-                android:textSize="20sp"/>
+                android:onClick="clearBTN"
+                android:text="@string/clear"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:backgroundTint="#DD2C00" />
 
             <Button
                 android:id="@+id/parenthesesBTN"
@@ -125,15 +126,16 @@
             <Button
                 android:id="@+id/multiplyBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:layout_weight="1"
-                android:text="@string/multiply"
-                android:background="@drawable/circle"
                 android:layout_margin="5dp"
-                app:backgroundTint="#ff9000"
-                android:textSize="20sp"/>
+                android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="multiplyBTN"
+                android:text="@string/multiply"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:backgroundTint="#ff9000" />
         </TableRow>
 
         <TableRow
