@@ -4,13 +4,24 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
+
+    private EditText display;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        display = findViewById(R.id.textView);
+        display.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
 
     public void zeroBTN (View view){
@@ -67,5 +78,18 @@ public void pointBTN(View view){
     public void clearBTN (View view){
 
     }
+    public void parenthesisBTN(View view){
+
+    }
+    public void exponentBTN (View view){
+
+    }
+    public void divideBTN (View view){
+
+    }
+    public void backspaceBTN (View view){
+
+    }
+
 
 }

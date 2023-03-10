@@ -40,41 +40,44 @@
             <Button
                 android:id="@+id/parenthesesBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:layout_weight="1"
-                android:text="@string/parentheses"
-                android:background="@drawable/circle"
                 android:layout_margin="5dp"
-                app:backgroundTint="#ff9000"
-                android:textSize="20sp"/>
+                android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="parenthesisBTN"
+                android:text="@string/parentheses"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:backgroundTint="#ff9000" />
 
             <Button
                 android:id="@+id/exponentBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:layout_weight="1"
-                android:text="@string/exponent"
-                android:background="@drawable/circle"
                 android:layout_margin="5dp"
-                app:backgroundTint="#ff9000"
-                android:textSize="20sp"/>
+                android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="exponentBTN"
+                android:text="@string/exponent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:backgroundTint="#ff9000" />
 
             <Button
                 android:id="@+id/divideBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:layout_weight="1"
-                android:text="@string/divide"
-                android:background="@drawable/circle"
                 android:layout_margin="5dp"
-                app:backgroundTint="#ff9000"
-                android:textSize="20sp"/>
+                android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="divideBTN"
+                android:text="@string/divide"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:backgroundTint="#ff9000" />
         </TableRow>
 
         <TableRow
